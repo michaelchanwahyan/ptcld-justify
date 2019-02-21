@@ -83,7 +83,7 @@ std::vector<std::vector<float>> readpointcloud(std::string inputfilename, const 
             POINTS[rowcnt][j] = std::stof(trim_copy(POINT[j]));
             //std::cout << POINTS[rowcnt][j] << std::endl;
         }
-        std::cout << std::endl;
+        //std::cout << std::endl;
     }
     fin.close();
     return POINTS;
@@ -94,16 +94,22 @@ int main()
     std::string filename = "";
 
     std::cout << "input filename:" << std::endl;
-    std::cin >> filename;
+    //std::cin >> filename;
+    filename = ".\\whiteboxscan\\Serial_numbe_1100118528610\\Front.csv";
     std::cout << "reading " << filename << " ..." << std::endl;
     std::vector<std::vector<float>> POINTS = readpointcloud(filename, ',');
     std::cout << "finish reading !" << std::endl;
 
+    std::cout << "point cloud contains " << POINTS.size() << " points !" << std::endl;
+    
+    /*
     for (unsigned int pointcnt = 0; pointcnt < POINTS.size(); pointcnt++) {
         for (uint8_t axiscnt = 0; axiscnt < 3; axiscnt++) {
             std::cout << ' ' << POINTS[pointcnt][axiscnt];
         }
         std::cout << std::endl;
     }
+    */
+
     return 0;
 }
