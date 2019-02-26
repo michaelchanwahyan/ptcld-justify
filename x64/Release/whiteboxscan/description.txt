@@ -4,3 +4,7 @@ dataset: Front.csv
 active xlim = [1.38,1.89]
 active ylim = [2.22,2.65]
 active zlim = [-0.24,1.7]
+dataset: Side.csv
+active xlim = [1.377,1.996]
+active ylim = [2.545,2.847]
+active zlim = [-0.475,0.256]
