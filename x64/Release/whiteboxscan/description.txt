@@ -12,3 +12,7 @@ dataset: Side_2.csv
 active xlim = [1.499,2.093]
 active ylim = [2.184,2.720]
 active zlim = [-0.374,0.258]
+dataset: Side_2.csv
+active xlim = [1.259,1.870]
+active ylim = [2.059,2.605]
+active zlim = [-0.336,0.0443]
