@@ -3,8 +3,12 @@ velodyne serial: 1100118528610
 dataset: Front.csv
 active xlim = [1.38,1.89]
 active ylim = [2.22,2.65]
-active zlim = [-0.24,1.7]
+active zlim = [-0.45,0.25]
 dataset: Side.csv
 active xlim = [1.377,1.996]
-active ylim = [2.545,2.847]
-active zlim = [-0.475,0.256]
+active ylim = [2.265,2.847]
+active zlim = [-0.465,0.256]
+dataset: Side_2.csv
+active xlim = [1.499,2.093]
+active ylim = [2.184,2.720]
+active zlim = [-0.374,0.258]
